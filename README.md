@@ -18,4 +18,4 @@ Grepping with ``egrep "bit [0-9]|unsplit (1|3|7|15|31|63|127|255|511|1023|2047|4
 
 # Why?
 
-Decision tables are fast tp work with. 65536 leafs translates into about 16 (probably, less) decision operations per bit predicted, 128 decision operations per byte. They allow to predict bits from arbitrary location, if you provide context wihndow for that location, thus, they allow for (semi-) random access.
+Decision tables are fast tp work with. 65536 leafs translates into about 16 (probably, less) decision operations per bit predicted, 128 decision operations per byte. They allow to predict bits from arbitrary location, if you provide context window for that location, thus, they allow for (semi-) random access.
