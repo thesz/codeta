@@ -8,7 +8,7 @@ There is a single program right now, deta.cc, you can complie it with ``make det
 
 # ``deta`` program
 
-``deta`` program reads enwik8 (can be downloaded here) into memory and builds decision trees for bits from highest one (7th) to the lowest one (0th). Bit 6 utilizes bit 7 as the tree's input variable, bit 5 utilizes bits 7 and 6 and so on.
+``deta`` program reads enwik8 (can be downloaded [here](https://www.mattmahoney.net/dc/textdata.html)) into memory and builds decision trees for bits from highest one (7th) to the lowest one (0th). Bit 6 utilizes bit 7 as the tree's input variable, bit 5 utilizes bits 7 and 6 and so on.
 
 As ``deta`` is quite chatty, you should write it's output into the log file.
 
